@@ -14,7 +14,7 @@ This is a simple Python script that generates a presigned url for an object in S
 
 ## Disclaimer
 
-Before you use this, make sure to understand the different between
+Before you use this, make sure to understand the difference between
 
 - GET, PUT request to the generated presigned url to S3. This will retrieve/upload the object to S3 from the presigned url straight without any additional steps.
 - POST request with form data to the presigned url to S3. This will upload the object to S3, but you'll have to do additional steps by forming a proper form data and sending it to the presigned url.
@@ -61,7 +61,6 @@ Outputs a JSON data with url and fields.
         "x-amz-signature": "f486dcc93fe1a22707e4b27a0814d49adb366842597008980cb8895969ad304e"
     }
   }
-    ```
   ````
 
 ## Explanation
