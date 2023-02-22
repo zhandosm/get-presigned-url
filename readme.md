@@ -83,8 +83,4 @@ Outputs a JSON data with url and fields.
 
 ## AWS Lambda
 
-If you want to use this script in AWS Lambda, after configuring your Lambda function, you can follow the steps below:
-
-1. Copy the `get_presigned_url()` function in `main.py` and paste it in the your Lambda function.
-2. Specify the the details in the funciton according to your needs.
-3. Use the `get_presigned_url()` function in your Lambda function however you want to generate the presigned url.
+If you want to use this script in AWS Lambda, after configuring your Lambda function, depending on your needs copy `the get_presigned_url()` or `get_presigned_post()` into your lambda function.
