@@ -1,8 +1,9 @@
 import logging
 import boto3
 
+# Example 1. get_object, put_object methods
 
-# This is the main function get_presigned_url
+
 def get_presigned_url(bucket_name, object_name, expiration=120):
     # if you have multiple profiles, you can specify one here, otherwise leave it as default
     aws_profile = 'default'
