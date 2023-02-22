@@ -41,7 +41,7 @@ def get_presigned_post(bucket_name, object_name, expiration=120):
     return presigned_url
 
 
-bucket_name = 'eazel-io'
+bucket_name = 'bucketname'
 file_name = 'user-image.png'
 object_name = f"uploads/content/{file_name}"
 
