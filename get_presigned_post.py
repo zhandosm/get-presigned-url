@@ -47,7 +47,7 @@ object_name = f"uploads/content/{file_name}"
 
 get_presigned_post(bucket_name, object_name)
 
-# SAMPLE OUTPUT
+# SAMPLE OUTPUT: JSON data with url and fields
 # {
 #     "url": "https://bucketname.s3.amazonaws.com/",
 #     "fields": {

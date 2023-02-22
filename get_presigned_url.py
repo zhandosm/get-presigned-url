@@ -37,4 +37,10 @@ bucket_name = 'mybucketname'
 object_name = file_path + '/' + file_name
 expiration = 120
 
-# get_presigned_url(bucket_name, object_name, expiration) # uncomment this line to test
+# uncomment this line to test
+get_presigned_url(bucket_name, object_name, expiration)
+
+# SAMPLE OUTPUT: url
+# https://mybucketname.s3.amazonaws.com/uploads/path-to-file/file-name?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AAAAAAAAAA123456%2F20230222%2Fus-west-1%2Fs3%2Faws4_request&X-Amz-Date=20230222T075718Z&X-Amz-Expires=120&X-Amz-SignedHeaders=host&X-Amz-Signature=02b60ec8eb2af625648dd10a4400d1ea01495a95ab403a186a200fe34ffe1a63
+
+# Use the presigned URL to retrieve/upload a file to S3
