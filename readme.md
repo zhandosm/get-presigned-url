@@ -62,6 +62,7 @@ Outputs a JSON data with url and fields.
     }
   }
   ````
+  For more information on data in `fields` check [HTML Form Fields](https://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-HTTPPOSTForms.html#sigv4-HTTPPOSTFormFields)
 
 ## Explanation
 
@@ -80,6 +81,10 @@ Outputs a JSON data with url and fields.
     - Note that `/` will create a folder in the bucket that you provide
     - For example: `object_name = "folder1/folder2/folder3/file.txt"` will create a folder structure like this: folder1 > folder2 > folder3 > file.txt
   - `expiration`: Expiration time of the presigned url in seconds. Default is 120 seconds.
+
+
+ 
+
 
 ## AWS Lambda
 
